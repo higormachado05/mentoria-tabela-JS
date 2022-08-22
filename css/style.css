@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 header {
@@ -25,7 +27,18 @@ header img {
 .tabela-notas table {
   max-width: 800px;
   width: 100%;
-  border: 1px solid lightgrey;
+  border-collapse: collapse;
+  background-color: white;
+}
+.tabela-notas thead {
+  background-color: lightgray;
+}
+.tabela-notas table, .tabela-notas td {
+  border: 1px solid black;
+  padding: 5px;
+}
+.tabela-notas tbody tr:nth-child(even) {
+  background-color: lightgray;
 }
 
 /*# sourceMappingURL=style.css.map */
