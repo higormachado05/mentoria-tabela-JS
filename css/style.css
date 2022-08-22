@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: black;
+  height: 130px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
