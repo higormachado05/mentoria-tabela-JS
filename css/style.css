@@ -33,12 +33,10 @@ header img {
 .tabela-notas thead {
   background-color: lightgray;
 }
-.tabela-notas table, .tabela-notas td {
+.tabela-notas table, .tabela-notas td, .tabela-notas th {
   border: 1px solid black;
   padding: 5px;
 }
 .tabela-notas tbody tr:nth-child(even) {
   background-color: lightgray;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
