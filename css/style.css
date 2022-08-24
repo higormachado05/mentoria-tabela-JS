@@ -46,6 +46,7 @@ header img {
 
 @media (min-width: 230px) and (max-width: 830px) {
   .tabela-notas {
+    padding-top: 40px;
     padding: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
