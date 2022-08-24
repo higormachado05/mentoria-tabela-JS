@@ -44,6 +44,10 @@ header{
     padding: 5px;
   }
 
+  th{
+    text-align: left;
+  }
+
   tbody tr:nth-child(even) {
     background-color: lightgray;
   }
