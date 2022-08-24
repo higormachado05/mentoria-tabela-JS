@@ -42,4 +42,10 @@ header img {
 }
 .tabela-notas tbody tr:nth-child(even) {
   background-color: lightgray;
+}
+
+@media (min-width: 230px) and (max-width: 830px) {
+  .tabela-notas {
+    padding: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
