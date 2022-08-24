@@ -127,6 +127,7 @@ row_2_data_2.innerHTML = media_1;
 
 let row_2_data_3 = document.createElement('td');
 row_2_data_3.innerHTML = situacao_1;
+row_2_data_3.style.backgroundColor = (row_2_data_3 == 'aprovado') ? "green" : "red";
 
 row_2.appendChild(row_2_data_1);
 row_2.appendChild(row_2_data_2);
@@ -143,6 +144,7 @@ row_3_data_2.innerHTML = media_2;
 
 let row_3_data_3 = document.createElement('td');
 row_3_data_3.innerHTML = situacao_2;
+row_3_data_3.style.backgroundColor = (row_3_data_3.innerHTML == 'aprovado') ? "green" : "red";
 
 row_3.appendChild(row_3_data_1);
 row_3.appendChild(row_3_data_2);
@@ -159,6 +161,7 @@ row_4_data_2.innerHTML = media_3;
 
 let row_4_data_3 = document.createElement('td');
 row_4_data_3.innerHTML = situacao_3;
+row_4_data_3.style.backgroundColor = (row_4_data_3.innerHTML == 'aprovado') ? "green" : "red";
 
 row_4.appendChild(row_4_data_1);
 row_4.appendChild(row_4_data_2);
