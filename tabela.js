@@ -1,14 +1,14 @@
-var nome, notas, situacao, situacao_1, situacao_2, situacao_3;
+let nome, notas, situacao, situacao_1, situacao_2, situacao_3;
 
-var soma = 0
-var soma_1 = 0
-var soma_2 = 0
-var soma_3 = 0
+let soma = 0
+let soma_1 = 0
+let soma_2 = 0
+let soma_3 = 0
 
-var media = 0
-var media_1 = 0
-var media_2 = 0
-var media_3 = 0
+let media = 0
+let media_1 = 0
+let media_2 = 0
+let media_3 = 0
 
 const alunos = [
   {
@@ -43,9 +43,9 @@ for (cont = 0; cont < alunos.length; cont++) {
 }
 
 //Dados row 2 (aluno 1)
-var aluno1 = alunos[0]
-var nomeAluno1 = aluno1.nome
-var notasAluno1 = aluno1.notas
+let aluno1 = alunos[0]
+let nomeAluno1 = aluno1.nome
+let notasAluno1 = aluno1.notas
 
 for(let cont_1 = 0; cont_1 < notasAluno1.length; cont_1++){
   soma_1+=notasAluno1[cont_1];
@@ -58,9 +58,9 @@ for(let cont_1 = 0; cont_1 < notasAluno1.length; cont_1++){
 }
 
 //Dados row 3 (aluno 2)
-var aluno2 = alunos[1]
-var nomeAluno2 = aluno2.nome
-var notasAluno2 = aluno2.notas
+let aluno2 = alunos[1]
+let nomeAluno2 = aluno2.nome
+let notasAluno2 = aluno2.notas
 
 for(let cont_2 = 0; cont_2 < notasAluno2.length; cont_2++){
   soma_2+=notasAluno2[cont_2];
@@ -73,9 +73,9 @@ for(let cont_2 = 0; cont_2 < notasAluno2.length; cont_2++){
 }
 
 //Dados row 4 (aluno 3)
-var aluno3 = alunos[2]
-var nomeAluno3 = aluno3.nome
-var notasAluno3 = aluno3.notas
+let aluno3 = alunos[2]
+let nomeAluno3 = aluno3.nome
+let notasAluno3 = aluno3.notas
 
 for(let cont_3 = 0; cont_3 < notasAluno3.length; cont_3++){
   soma_3+=notasAluno3[cont_3];
